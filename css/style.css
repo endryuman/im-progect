@@ -6,19 +6,23 @@
   --color-light-black: #696969;
   --main-color-white: #ffffff;
 }
+
 body {
   font-family: Poppins, sans-serif;
   background-color: var(--main-color-white);
   color: var(--color-black-202020);
 }
+
 a {
   text-decoration: none;
 }
+
 ul {
   margin: 0;
   list-style: none;
   padding-left: 0;
 }
+
 h1,
 h2,
 h3,
@@ -28,9 +32,11 @@ h6,
 p {
   margin: 0;
 }
+
 img {
   display: block;
 }
+
 button {
   font-family: inherit;
   cursor: pointer;
@@ -53,12 +59,13 @@ button {
   align-items: center;
 }
 
-.container {
-}
+.container {}
+
 .header-navigation {
   display: flex;
   align-items: center;
 }
+
 .header-logo {
   color: var(--main-color-white);
   font-family: "Inter";
@@ -69,14 +76,15 @@ button {
   align-items: center;
   margin-right: 84px;
 }
-.header-icon {
-}
+
+.header-icon {}
+
 .header-menu {
   display: flex;
   gap: 40px;
 }
-.header-list-item {
-}
+
+.header-list-item {}
 
 .header-item-link {
   color: var(--main-color-white);
@@ -99,4 +107,76 @@ button {
   border: none;
   display: block;
   margin-left: auto;
+}
+
+.hero {
+  background-color: var(--color-black-202020);
+  padding-top: 184px;
+  padding-bottom: 190px;
+
+}
+
+.container {}
+
+.hero-text {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-color-white);
+}
+
+.hero-descr {
+  width: 786px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 39px;
+}
+
+.hero-text-part {
+  font-weight: 700;
+  color: var(--color-main-red);
+}
+
+.hero-subtitle {
+  margin-bottom: 14px;
+
+}
+
+.hero-title {
+  font-size: 70px;
+  line-height: calc(90/70);
+  letter-spacing: 0.03em;
+  color: var(--main-color-white);
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  text-align: center;
+  margin-bottom: 22px;
+}
+
+.hero-list {
+  display: flex;
+  justify-content: center;
+  gap: 19px;
+}
+
+.hero-list-item {}
+
+.hero-btn {
+  font-size: 16px;
+  line-height: calc(24/16);
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--color-black-202020);
+  background-color: var(--main-color-white);
+  border: none;
+  padding: 12px 34px;
+  border-radius: 5px;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  color: var(--main-color-white);
+  background-color: var(--color-main-red);
 }
